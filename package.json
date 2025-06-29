@@ -28,8 +28,8 @@
     "eject": "react-scripts eject",
     "serve": "node merge-json.cjs && json-server --watch db.json --port 3001",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+  "deploy": "gh-pages -d build --exclude \"**/*.map\""
+},
   "eslintConfig": {
     "extends": [
       "react-app",
