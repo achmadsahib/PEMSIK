@@ -2,7 +2,6 @@
   "name": "pertemuan3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://achmadsahib.github.io/PEMSIK",
   "dependencies": {
     "@tanstack/react-query": "^5.81.5",
     "@tanstack/react-query-devtools": "^5.81.5",
@@ -28,7 +27,7 @@
     "eject": "react-scripts eject",
     "serve": "node merge-json.cjs && json-server --watch db.json --port 3001",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build --exclude \"**/*.map\""
+    "deploy": "gh-pages -d build --exclude \"**/*.map\""
 },
   "eslintConfig": {
     "extends": [
